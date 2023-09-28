@@ -1,16 +1,64 @@
-body{
-    background-color: #125230;
-    background-size: cover;
-    grid-template-areas: "videu text";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100vh;
+body{   
     text-align:center;
     color: white;
-    margin-top: 70;
+}
+
+.ContainerCelebrare{
+    background-color: #125230;
+    padding: 10px;
+}
+
+.celebrare{
+    padding-bottom: 20px;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.box{
+    width: 100% !important;
+    padding: 3rem;
+}
+
+.space{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.imagem{
+    margin-left: 80px;
+    border-radius: 2% ;
+    border: 1px solid #125230
+}
+
+.tabua{
+    font-size: 100px;
+    margin:auto auto 15px
+}
+
+.Container1{
+    background-color:#16633a;
+    display: flex;
+}
+
+.Container2{
+    background-color: #1a7846;
+    display: flex;
+}
+
+.Container3{
+    background-color: #1f8c52;
+    display: flex;
+}
+
+.ContainerFooter{
+    background-color: #125230;
+    padding: 20px 20px;
 }
 
 .container{
-    display: flex;
+    width: 100% !important;
 }
 
 .videu{
@@ -18,12 +66,12 @@ body{
 }
 
 h1{
-    font-size: 100;
+    font-size: 150;
     margin-bottom: 0;
     font-family: 'Celebrare', Times, serif;
     font-weight: normal;
     font-style: normal;
-    height: 70;
+    height: 100;
 }
 
 p{
@@ -53,7 +101,7 @@ body img{
 }
 
 ul li a:hover{
-    color: darkgreen;
+    color: blue;
 }
 
 .segundo-paragrafo{
@@ -70,4 +118,13 @@ ul li a:hover{
 
 .botao:hover{
     opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+    .imagem{
+        margin-left: auto;
+    }
+    .tabua{
+        font-size: 80px;
+    }
 }
